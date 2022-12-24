@@ -49,7 +49,7 @@ $(document).ready(function(){
     let portfolios = [
         {
             title : 'Zebra',
-            video : 'work/zebra_1.mp4',
+            video : 'work/zebra_1.webm',
             link : 'https://zebra.com.pk'
         },
         {
@@ -64,7 +64,7 @@ $(document).ready(function(){
         },
         {
             title : 'Gulf Wheel',
-            video : 'work/gulfwheels_1.mp4',
+            video : 'work/gulfwheels_1.webm',
             link  : 'https://www.gulfwheels.com/'
         },
         {
