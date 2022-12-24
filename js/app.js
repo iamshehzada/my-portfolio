@@ -49,47 +49,58 @@ $(document).ready(function(){
     let portfolios = [
         {
             title : 'Zebra',
-            video : 'work/zebra_1.webm'
+            video : 'work/zebra_1.mp4',
+            link : 'https://zebra.com.pk'
         },
         {
             title : 'Zebra Go',
-            video : 'work/zebra_go_1.webm'
+            video : 'work/zebra_go_1.mp4',
+            link : 'https://www.gozebra.pk/',
         },
         {
             title : 'Dentinect',
-            video : 'work/dentinect_1.webm'
-        },
-        {
-            title : 'Skyline Digital',
-            video : 'work/skylinedigital.webm'
-        },
-        {
-            title : 'Pusher Chat',
-            video : 'work/pusher_chat.webm'
-        },
-        {
-            title : 'Zebra',
-            video : 'work/zebra_1.webm'
-        },
-        {
-            title : 'Mall Fox',
-            video : 'work/mallfox_1.webm'
-        },
-        {
-            title : 'Live Match Mentor',
-            video : 'work/live_match_mentor.webm'
+            video : 'work/dentinect_1.webm',
+            link  : 'https://dentinect.co/'
         },
         {
             title : 'Gulf Wheel',
-            video : 'work/gulfwheels_1.webm'
+            video : 'work/gulfwheels_1.webm',
+            link  : 'https://www.gulfwheels.com/'
+        },
+        {
+            title : 'Skyline Digital',
+            video : 'work/skylinedigital.mp4',
+            link  : 'https://sklndgtl.com/'
+        },
+        {
+            title : 'Easy Store - WebSocket',
+            video : 'work/easystore_1.webm',
+            link : 'https://easystore.shop/'
+        },
+        {
+            title : 'Pusher Chat',
+            video : 'work/pusher_chat.webm',
+            link  : '#'
+        },
+        {
+            title : 'Mall Fox',
+            video : 'work/mallfox_1.webm',
+            link  : '#'
+        },
+        {
+            title : 'Live Match Mentor',
+            video : 'work/live_match_mentor.webm',
+            link  : '#'
         },
         {
             title : 'Shop - Point of Sale',
-            video : 'work/fast_food_pos.webm'
+            video : 'work/fast_food_pos.webm',
+            link  : '#'
         },
         {
             title : 'Chat System - WebSocket',
-            video : 'work/websocket.mp4'
+            video : 'work/websocket.mp4',
+            link  : '#'
         },
 
 
