@@ -78,6 +78,11 @@ $(document).ready(function(){
             link : 'https://easystore.shop/'
         },
         {
+            title : 'Car Sport Based Website',
+            video : 'work/ksportusa.mp4',
+            link : 'https://ksportusa.com/'
+        },
+        {
             title : 'Pusher Chat',
             video : 'work/pusher_chat.webm',
             link  : '#'
@@ -94,7 +99,7 @@ $(document).ready(function(){
         },
         {
             title : 'Shop - Point of Sale',
-            video : 'work/fast_food_pos.mp4',
+            video : 'work/fast_food_pos.webm',
             link  : '#'
         },
         {
