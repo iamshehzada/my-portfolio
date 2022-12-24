@@ -64,7 +64,7 @@ $(document).ready(function(){
         },
         {
             title : 'Gulf Wheel',
-            video : 'work/gulfwheels_1.webm',
+            video : 'work/gulfwheels_1.mp4',
             link  : 'https://www.gulfwheels.com/'
         },
         {
@@ -94,7 +94,7 @@ $(document).ready(function(){
         },
         {
             title : 'Shop - Point of Sale',
-            video : 'work/fast_food_pos.webm',
+            video : 'work/fast_food_pos.mp4',
             link  : '#'
         },
         {
@@ -124,7 +124,7 @@ function renderPortfilio(portfolio)
                                 <a href="#" class="icon" onclick="displayVideo('${portfolio.video}')">
                                     <i class="fa-solid fa-eye"></i>
                                 </a>
-                                <a href="#" class="icon">
+                                <a href="${portfolio.link}" class="icon" target='_blank'>
                                     <i class="fa-solid fa-link"></i>
                                 </a>
                                 
