@@ -63,6 +63,11 @@ $(document).ready(function(){
             link  : 'https://dentinect.co/'
         },
         {
+            title : 'Skip The Rishta Aunty',
+            video : 'work/stra.mp4',
+            link  : 'https://skiptherishtaaunty.com'
+        },
+        {
             title : 'Gulf Wheel',
             video : 'work/gulfwheels_1.webm',
             link  : 'https://www.gulfwheels.com/'
