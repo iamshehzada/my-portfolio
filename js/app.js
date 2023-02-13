@@ -48,69 +48,84 @@ $(document).ready(function(){
     // renderPortfilio('work/zebra_1.webm');
     let portfolios = [
         {
-            title : 'Zebra',
+            title : 'Zebra | Laravel',
             video : 'work/zebra_1.webm',
             link : 'https://zebra.com.pk'
         },
         {
-            title : 'Zebra Go',
+            title : 'Zebra Go | Laravel',
             video : 'work/zebra_go_1.mp4',
             link : 'https://www.gozebra.pk/',
         },
         {
-            title : 'Dentinect',
+            title : 'Dentinect | Laravel',
             video : 'work/dentinect_1.webm',
             link  : 'https://dentinect.co/'
         },
         {
-            title : 'Skip The Rishta Aunty',
+            title : 'Skip The Rishta Aunty | Laravel',
             video : 'work/stra.mp4',
             link  : 'https://skiptherishtaaunty.com'
         },
         {
-            title : 'Gulf Wheel',
+            title : 'Gulf Wheel | Laravel',
             video : 'work/gulfwheels_1.webm',
             link  : 'https://www.gulfwheels.com/'
         },
         {
-            title : 'Skyline Digital',
+            title : 'Skyline Digital | Laravel',
             video : 'work/skylinedigital.mp4',
             link  : 'https://sklndgtl.com/'
         },
         {
-            title : 'Easy Store - WebSocket',
+            title : 'Easy Store - WebSocket | Laravel',
             video : 'work/easystore_1.webm',
             link : 'https://easystore.shop/'
         },
         {
-            title : 'Car Sport Based Website',
+            title : 'Car Sport Based Website | Wordpress',
             video : 'work/ksportusa.mp4',
             link : 'https://ksportusa.com/'
         },
         {
-            title : 'Pusher Chat',
+            title : 'Pusher Chat | Laravel',
             video : 'work/pusher_chat.webm',
             link  : '#'
         },
         {
-            title : 'Mall Fox',
+            title : 'Mall Fox | Laravel',
             video : 'work/mallfox_1.webm',
             link  : '#'
         },
         {
-            title : 'Live Match Mentor',
+            title : 'Live Match Mentor | Laravel',
             video : 'work/live_match_mentor.webm',
             link  : '#'
         },
         {
-            title : 'Shop - Point of Sale',
+            title : 'Shop - Point of Sale | Laravel',
             video : 'work/fast_food_pos.webm',
             link  : '#'
         },
         {
-            title : 'Chat System - WebSocket',
+            title : 'Chat System - WebSocket | Laravel',
             video : 'work/websocket.mp4',
             link  : '#'
+        },
+        {
+            title : 'GC Alliance | Wordpress',
+            video : 'work/gcalliance.mp4',
+            link  : '#'
+        },
+        {
+            title : 'Global Crypto News | Wordpress',
+            video : 'work/globalcryptonews.mp4',
+            link  : '#'
+        },
+        {
+            title : 'PopGop  | Wordpress',
+            video : 'work/popgop.mp4',
+            link  : 'https://popgop.com.pk/'
         },
 
 
