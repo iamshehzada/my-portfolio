@@ -115,12 +115,12 @@ $(document).ready(function(){
         {
             title : 'GC Alliance | Wordpress',
             video : 'work/gcalliance.mp4',
-            link  : '#'
+            link  : 'https://gcalliance.io/'
         },
         {
             title : 'Global Crypto News | Wordpress',
             video : 'work/globalcryptonews.mp4',
-            link  : '#'
+            link  : 'https://globalcryptonews.io/'
         },
         {
             title : 'PopGop  | Wordpress',
