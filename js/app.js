@@ -1,6 +1,6 @@
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
-        button.addEventListener("click", function() {
+        button.addEventListener("click", function () {
             document.querySelector(".active-btn").classList.remove("active-btn");
             this.classList.add("active-btn");
             document.querySelector(".active").classList.remove("active");
@@ -12,12 +12,11 @@
     })
 })();
 
-function displayVideo(video)
-{
+function displayVideo(video) {
     console.log(video)
     var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.getElementById("video");
     var modalContent = document.getElementById("modal-content");
     var captionText = document.getElementById("caption");
@@ -37,7 +36,7 @@ function displayVideo(video)
 
 
 // When the user clicks on <span> (x), close the modal
-function closeModel(text){ 
+function closeModel(text) {
     console.log(text);
     var modal = document.getElementById("myModal");
     modal.style.display = "none";
@@ -162,7 +161,7 @@ function closeModel(text){
 //                                 <a href="${portfolio.link}" class="icon" target='_blank'>
 //                                     <i class="fa-solid fa-link"></i>
 //                                 </a>
-                                
+
 //                             </div>
 //                         </div>
 //                     </div>`;
@@ -170,130 +169,129 @@ function closeModel(text){
 //     target.append(template);
 // }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const portfolios = [
-        {
-            title : 'Zebra | Laravel',
-            video : 'work/zebra_1.webm',
-            link : 'https://zebra.com.pk',
+document.addEventListener("DOMContentLoaded", function () {
+    const portfolios = [{
+            title: 'Zebra | Laravel',
+            video: 'work/zebra_1.webm',
+            link: 'https://zebra.com.pk',
             category: 'laravel'
         },
         {
-            title : 'Zebra Go | Laravel',
-            video : 'work/zebra_go_1.mp4',
-            link : 'https://www.gozebra.pk/',
-            category: 'laravel'
-
-        },
-        {
-            title : 'Dentinect | Laravel',
-            video : 'work/dentinect_1.webm',
-            link  : 'https://dentinect.co/',
+            title: 'Zebra Go | Laravel',
+            video: 'work/zebra_go_1.mp4',
+            link: 'https://www.gozebra.pk/',
             category: 'laravel'
 
         },
         {
-            title : 'Skip The Rishta Aunty | Laravel',
-            video : 'work/stra.mp4',
-            link  : 'https://skiptherishtaaunty.com',
+            title: 'Dentinect | Laravel',
+            video: 'work/dentinect_1.webm',
+            link: 'https://dentinect.co/',
             category: 'laravel'
 
         },
         {
-            title : 'Gulf Wheel | Laravel',
-            video : 'work/gulfwheels_1.webm',
-            link  : 'https://www.gulfwheels.com/',
+            title: 'Skip The Rishta Aunty | Laravel',
+            video: 'work/stra.mp4',
+            link: 'https://skiptherishtaaunty.com',
             category: 'laravel'
 
         },
         {
-            title : 'Skyline Digital | Laravel',
-            video : 'work/skylinedigital.mp4',
-            link  : 'https://sklndgtl.com/',
+            title: 'Gulf Wheel | Laravel',
+            video: 'work/gulfwheels_1.webm',
+            link: 'https://www.gulfwheels.com/',
             category: 'laravel'
 
         },
         {
-            title : 'Easy Store - WebSocket | Laravel',
-            video : 'work/easystore_1.webm',
-            link : 'https://easystore.shop/',
+            title: 'Skyline Digital | Laravel',
+            video: 'work/skylinedigital.mp4',
+            link: 'https://sklndgtl.com/',
             category: 'laravel'
 
         },
         {
-            title : 'Car Sport Based Website ',
-            video : 'work/ksportusa.mp4',
-            link : 'https://ksportusa.com/',
+            title: 'Easy Store - WebSocket | Laravel',
+            video: 'work/easystore_1.webm',
+            link: 'https://easystore.shop/',
+            category: 'laravel'
+
+        },
+        {
+            title: 'Car Sport Based Website ',
+            video: 'work/ksportusa.mp4',
+            link: 'https://ksportusa.com/',
             category: 'wordpress'
 
         },
         {
-            title : 'Pusher Chat | Laravel',
-            video : 'work/pusher_chat.webm',
-            link  : '#',
+            title: 'Pusher Chat | Laravel',
+            video: 'work/pusher_chat.webm',
+            link: '#',
             category: 'laravel'
 
         },
         {
-            title : 'Mall Fox',
-            video : 'work/mallfox_1.webm',
-            link  : '#',
+            title: 'Mall Fox',
+            video: 'work/mallfox_1.webm',
+            link: '#',
             category: 'laravel'
 
         },
         {
-            title : 'Live Match Mentor ',
-            video : 'work/live_match_mentor.webm',
-            link  : '#',
+            title: 'Live Match Mentor ',
+            video: 'work/live_match_mentor.webm',
+            link: '#',
             category: 'laravel'
 
         },
         {
-            title : 'Shop - Point of Sale ',
-            video : 'work/fast_food_pos.webm',
-            link  : '#',
+            title: 'Shop - Point of Sale ',
+            video: 'work/fast_food_pos.webm',
+            link: '#',
             category: 'laravel'
 
         },
         {
-            title : 'Chat System - WebSocket ',
-            video : 'work/websocket.mp4',
-            link  : '#',
+            title: 'Chat System - WebSocket ',
+            video: 'work/websocket.mp4',
+            link: '#',
             category: 'laravel'
 
         },
         {
-            title : 'GC Alliance ',
-            video : 'work/gcalliance.mp4',
-            link  : 'https://gcalliance.io/',
+            title: 'GC Alliance ',
+            video: 'work/gcalliance.mp4',
+            link: 'https://gcalliance.io/',
             category: 'wordpress'
 
         },
         {
-            title : 'Global Crypto News ',
-            video : 'work/globalcryptonews.mp4',
-            link  : 'https://globalcryptonews.io/',
+            title: 'Global Crypto News ',
+            video: 'work/globalcryptonews.mp4',
+            link: 'https://globalcryptonews.io/',
             category: 'wordpress'
 
         },
         {
-            title : 'PopGop',
-            video : 'work/popgop.mp4',
-            link  : 'https://popgop.com.pk/',
+            title: 'PopGop',
+            video: 'work/popgop.mp4',
+            link: 'https://popgop.com.pk/',
             category: 'wordpress'
 
         },
         {
-            title : 'Automotive Cars',
-            video : 'work/amlcars.mp4',
-            link  : 'https://amlcars.se/',
+            title: 'Automotive Cars',
+            video: 'work/amlcars.mp4',
+            link: 'https://amlcars.se/',
             category: 'wordpress'
-            
+
         },
         {
-            title : 'Electronic Document System',
-            video : 'work/e-signature.mp4',
-            link  : '#',
+            title: 'Electronic Document System',
+            video: 'work/e-signature.mp4',
+            link: '#',
             category: 'nuxtjs'
 
         }
@@ -368,4 +366,3 @@ document.addEventListener("DOMContentLoaded", function() {
         videoModal.style.display = "none";
     });
 });
-
